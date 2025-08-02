@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    font: roboto;
+}
+
+.navbar{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p{
+    size: 24px;
+    color: #e5e7eb;
+}
