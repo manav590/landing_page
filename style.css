@@ -1,17 +1,39 @@
 *{
     margin:0;
     padding:0;
-    font: roboto;
+    font-family: sans-serif;
 }
 
 .navbar{
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 16px 48px;
 }
 
-.p{
+
+
+.hes{
     size: 24px;
     color: #e5e7eb;
+}
+
+.link{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-around;
+    color: #e5e7eb;
+}
+a{
+    color: #e5e7eb;
+}
+
+.hero{
+    padding: 40px;
+    background-color: #1f2937;  
+    display: flex;
+    justify-content: space-between; 
 }
